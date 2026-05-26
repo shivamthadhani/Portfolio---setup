@@ -2,6 +2,7 @@
 
 Documentation of the 100Hires portfolio assignment: install Cursor IDE, add the Claude Code and Codex extensions, set up a public GitHub repo, and write up the process.
 
+![Cursor with Claude Code and Codex extensions installed](extensionsinstalled.png)
 
 ## What I installed
 
