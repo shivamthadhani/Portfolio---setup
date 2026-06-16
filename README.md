@@ -37,3 +37,20 @@ I created a new Anthropic Console account at console.anthropic.com. I had read t
 After installing Git for Windows, I expected Cursor's built-in clone button to work, but clicking it had no effect. I tried restarting Cursor, confirmed `git --version` ran fine in PowerShell, and reinstalled Git. The button still wouldn't respond. I worked around it by going to my repo on github.com, clicking the Code dropdown, and using the "Open with Cursor" option from there. That opened the cloned repo directly in Cursor and let me skip the in-app clone button entirely.
 
 Codex installed without any of these issues. The extension loaded directly in Cursor and was ready to use, no paywall, no auth flow blocking the install.
+
+---
+
+## Research Project: AI-Powered SEO Content Production
+
+### Topic and why
+I chose AI-powered SEO content production because it maps directly to where the field is moving in 2026 (AI Overviews, AI Mode, GEO/AEO) and it's where practitioner judgment is most visible.
+
+### What I collected
+10 practitioners selected on three filters: active in the last 6 months, a real point of view on AI in content, and an operator seat (not commentator-only).
+- /research/sources.md — the 10 experts with links and selection rationale
+- /research/linkedin-posts/ — recent posts per expert
+- /research/youtube-transcripts/ — transcripts per expert
+- /scripts/ — the Python scripts I used to collect and organize everything
+
+### Method and limitations
+LinkedIn posts were collected from public URLs. YouTube transcripts were pulled with the youtube-transcript-api library. 24 transcripts were collected; YouTube rate-limited further requests from my IP and one source video had been removed. At scale I'd route transcript collection through a dedicated API like Supadata. I committed in stages rather than one large commit to keep the work history readable.
